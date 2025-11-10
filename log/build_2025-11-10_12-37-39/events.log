@@ -1,0 +1,415 @@
+[0.000000] (-) TimerEvent: {}
+[0.000175] (-) JobUnselected: {'identifier': 'learnning_piper'}
+[0.000198] (-) JobUnselected: {'identifier': 'limo_bringup'}
+[0.000221] (-) JobUnselected: {'identifier': 'limo_description'}
+[0.000241] (-) JobUnselected: {'identifier': 'limo_gazebo_sim'}
+[0.000261] (-) JobUnselected: {'identifier': 'limo_learnning'}
+[0.000282] (-) JobUnselected: {'identifier': 'limo_learnning_py'}
+[0.000303] (-) JobUnselected: {'identifier': 'piper_description'}
+[0.000323] (-) JobUnselected: {'identifier': 'piper_moveit_config_v4'}
+[0.000343] (-) JobUnselected: {'identifier': 'piper_moveit_config_v5'}
+[0.000365] (limo_msgs) JobQueued: {'identifier': 'limo_msgs', 'dependencies': OrderedDict()}
+[0.000970] (limo_msgs) JobStarted: {'identifier': 'limo_msgs'}
+[0.007942] (limo_msgs) JobProgress: {'identifier': 'limo_msgs', 'progress': 'cmake'}
+[0.008419] (limo_msgs) Command: {'cmd': ['/usr/bin/cmake', '/home/artil/ROS/src/agilex_open_class/limo/limo_msgs', '-DCMAKE_INSTALL_PREFIX=/home/artil/ROS/install/limo_msgs'], 'cwd': '/home/artil/ROS/build/limo_msgs', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'USER': 'artil', 'FONTCONFIG_PATH': '/etc/fonts', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'GIO_MODULE_DIR': '/home/artil/snap/code/common/.cache/gio-modules', 'XDG_SESSION_TYPE': 'wayland', 'GIT_ASKPASS': '/snap/code/211/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'GTK_EXE_PREFIX_VSCODE_SNAP_ORIG': '', 'GDK_BACKEND_VSCODE_SNAP_ORIG': '', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/artil', 'CHROME_DESKTOP': 'code.desktop', 'LOCPATH_VSCODE_SNAP_ORIG': '', 'OLDPWD': '/home/artil/ROS', 'TERM_PROGRAM_VERSION': '1.105.1', 'DESKTOP_SESSION': 'ubuntu', 'GTK_PATH': '/snap/code/211/usr/lib/x86_64-linux-gnu/gtk-3.0', 'NVM_BIN': '/home/artil/.nvm/versions/node/v20.19.5/bin', 'NVM_INC': '/home/artil/.nvm/versions/node/v20.19.5/include/node', 'XDG_DATA_HOME_VSCODE_SNAP_ORIG': '', 'GTK_IM_MODULE_FILE': '/home/artil/snap/code/common/.cache/immodules/immodules.cache', 'GIO_LAUNCHED_DESKTOP_FILE': '/var/lib/snapd/desktop/applications/code_code.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG': '', 'VSCODE_GIT_ASKPASS_MAIN': '/snap/code/211/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/snap/code/211/usr/share/code/code', 'MANAGERPID': '2604', 'SYSTEMD_EXEC_PID': '2840', 'IM_CONFIG_CHECK_ENV': '1', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '3765', 'NVM_DIR': '/home/artil/.nvm', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'artil', 'JOURNAL_STREAM': '9:28274', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'XDG_DATA_DIRS_VSCODE_SNAP_ORIG': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'USERNAME': 'artil', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/home/artil/.nvm/versions/node/v20.19.5/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/artil:@/tmp/.ICE-unix/2791,unix/artil:/tmp/.ICE-unix/2791', 'GTK_EXE_PREFIX': '/snap/code/211/usr', 'INVOCATION_ID': 'b43901d274e84ec38d50913dec381251', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'LOCPATH': '/snap/code/211/usr/lib/locale', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'CLINE_ACTIVE': 'true', 'GIO_MODULE_DIR_VSCODE_SNAP_ORIG': '', 'XDG_DATA_HOME': '/home/artil/snap/code/211/.local/share', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.05O2F3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-d383993282.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'GSETTINGS_SCHEMA_DIR': '/home/artil/snap/code/211/.local/share/glib-2.0/schemas', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GTK_PATH_VSCODE_SNAP_ORIG': '', 'FONTCONFIG_FILE': '/etc/fonts/fonts.conf', 'GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG': '', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/artil/ROS/build/limo_msgs', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'NVM_CD_FLAGS': '', 'XDG_DATA_DIRS': '/home/artil/snap/code/211/.local/share:/home/artil/snap/code/211:/snap/code/211/usr/share:/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.099850] (-) TimerEvent: {}
+[0.136248] (limo_msgs) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.199980] (-) TimerEvent: {}
+[0.254404] (limo_msgs) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[0.279044] (limo_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.300111] (-) TimerEvent: {}
+[0.383811] (limo_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.389614] (limo_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.389827] (limo_msgs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.390099] (limo_msgs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.400207] (-) TimerEvent: {}
+[0.400728] (limo_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.495281] (limo_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.500288] (-) TimerEvent: {}
+[0.501071] (limo_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.501327] (limo_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.501738] (limo_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.505283] (limo_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.600395] (-) TimerEvent: {}
+[0.632282] (limo_msgs) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[0.700726] (-) TimerEvent: {}
+[0.730591] (limo_msgs) StdoutLine: {'line': b'-- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)\n'}
+[0.769288] (limo_msgs) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[0.783418] (limo_msgs) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[0.798519] (limo_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.800902] (-) TimerEvent: {}
+[0.814980] (limo_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.844816] (limo_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)\n'}
+[0.861716] (limo_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 4.6.6 (/opt/ros/jazzy/share/rosidl_adapter/cmake)\n'}
+[0.901164] (-) TimerEvent: {}
+[1.001475] (-) TimerEvent: {}
+[1.101761] (-) TimerEvent: {}
+[1.202087] (-) TimerEvent: {}
+[1.302412] (-) TimerEvent: {}
+[1.394341] (limo_msgs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)\n'}
+[1.402588] (-) TimerEvent: {}
+[1.502860] (-) TimerEvent: {}
+[1.603086] (-) TimerEvent: {}
+[1.703339] (-) TimerEvent: {}
+[1.803620] (-) TimerEvent: {}
+[1.903970] (-) TimerEvent: {}
+[2.004263] (-) TimerEvent: {}
+[2.016320] (limo_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.104376] (-) TimerEvent: {}
+[2.204657] (-) TimerEvent: {}
+[2.261929] (limo_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.265194] (limo_msgs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)\n'}
+[2.304809] (-) TimerEvent: {}
+[2.376689] (limo_msgs) StdoutLine: {'line': b'-- Found PythonExtra: /usr/bin/python3  \n'}
+[2.404912] (-) TimerEvent: {}
+[2.505212] (-) TimerEvent: {}
+[2.605501] (-) TimerEvent: {}
+[2.705953] (-) TimerEvent: {}
+[2.806513] (-) TimerEvent: {}
+[2.810628] (limo_msgs) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed \n'}
+[2.857927] (limo_msgs) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[2.885487] (limo_msgs) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[2.887451] (limo_msgs) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.889023] (limo_msgs) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.891473] (limo_msgs) StdoutLine: {'line': b'-- Configuring done (2.9s)\n'}
+[2.906740] (-) TimerEvent: {}
+[2.932145] (limo_msgs) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[2.941766] (limo_msgs) StdoutLine: {'line': b'-- Build files have been written to: /home/artil/ROS/build/limo_msgs\n'}
+[2.951504] (limo_msgs) CommandEnded: {'returncode': 0}
+[2.952593] (limo_msgs) JobProgress: {'identifier': 'limo_msgs', 'progress': 'build'}
+[2.952630] (limo_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/artil/ROS/build/limo_msgs', '--', '-j16', '-l16'], 'cwd': '/home/artil/ROS/build/limo_msgs', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'USER': 'artil', 'FONTCONFIG_PATH': '/etc/fonts', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'GIO_MODULE_DIR': '/home/artil/snap/code/common/.cache/gio-modules', 'XDG_SESSION_TYPE': 'wayland', 'GIT_ASKPASS': '/snap/code/211/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'GTK_EXE_PREFIX_VSCODE_SNAP_ORIG': '', 'GDK_BACKEND_VSCODE_SNAP_ORIG': '', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/artil', 'CHROME_DESKTOP': 'code.desktop', 'LOCPATH_VSCODE_SNAP_ORIG': '', 'OLDPWD': '/home/artil/ROS', 'TERM_PROGRAM_VERSION': '1.105.1', 'DESKTOP_SESSION': 'ubuntu', 'GTK_PATH': '/snap/code/211/usr/lib/x86_64-linux-gnu/gtk-3.0', 'NVM_BIN': '/home/artil/.nvm/versions/node/v20.19.5/bin', 'NVM_INC': '/home/artil/.nvm/versions/node/v20.19.5/include/node', 'XDG_DATA_HOME_VSCODE_SNAP_ORIG': '', 'GTK_IM_MODULE_FILE': '/home/artil/snap/code/common/.cache/immodules/immodules.cache', 'GIO_LAUNCHED_DESKTOP_FILE': '/var/lib/snapd/desktop/applications/code_code.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG': '', 'VSCODE_GIT_ASKPASS_MAIN': '/snap/code/211/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/snap/code/211/usr/share/code/code', 'MANAGERPID': '2604', 'SYSTEMD_EXEC_PID': '2840', 'IM_CONFIG_CHECK_ENV': '1', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '3765', 'NVM_DIR': '/home/artil/.nvm', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'artil', 'JOURNAL_STREAM': '9:28274', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'XDG_DATA_DIRS_VSCODE_SNAP_ORIG': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'USERNAME': 'artil', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/home/artil/.nvm/versions/node/v20.19.5/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/artil:@/tmp/.ICE-unix/2791,unix/artil:/tmp/.ICE-unix/2791', 'GTK_EXE_PREFIX': '/snap/code/211/usr', 'INVOCATION_ID': 'b43901d274e84ec38d50913dec381251', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'LOCPATH': '/snap/code/211/usr/lib/locale', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'CLINE_ACTIVE': 'true', 'GIO_MODULE_DIR_VSCODE_SNAP_ORIG': '', 'XDG_DATA_HOME': '/home/artil/snap/code/211/.local/share', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.05O2F3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-d383993282.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'GSETTINGS_SCHEMA_DIR': '/home/artil/snap/code/211/.local/share/glib-2.0/schemas', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GTK_PATH_VSCODE_SNAP_ORIG': '', 'FONTCONFIG_FILE': '/etc/fonts/fonts.conf', 'GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG': '', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/artil/ROS/build/limo_msgs', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'NVM_CD_FLAGS': '', 'XDG_DATA_DIRS': '/home/artil/snap/code/211/.local/share:/home/artil/snap/code/211:/snap/code/211/usr/share:/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[3.003447] (limo_msgs) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating type hashes for ROS interfaces\x1b[0m\n'}
+[3.006995] (-) TimerEvent: {}
+[3.011557] (limo_msgs) StdoutLine: {'line': b'[  1%] Built target ament_cmake_python_copy_limo_msgs\n'}
+[3.107169] (-) TimerEvent: {}
+[3.172844] (limo_msgs) StdoutLine: {'line': b'[  1%] Built target limo_msgs__rosidl_generator_type_description\n'}
+[3.183981] (limo_msgs) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[3.184162] (limo_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[3.184775] (limo_msgs) StdoutLine: {'line': b'creating limo_msgs.egg-info\n'}
+[3.196395] (limo_msgs) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[3.197631] (limo_msgs) StdoutLine: {'line': b'writing limo_msgs.egg-info/PKG-INFO\n'}
+[3.197811] (limo_msgs) StdoutLine: {'line': b'writing dependency_links to limo_msgs.egg-info/dependency_links.txt\n'}
+[3.198022] (limo_msgs) StdoutLine: {'line': b'writing top-level names to limo_msgs.egg-info/top_level.txt\n'}
+[3.198075] (limo_msgs) StdoutLine: {'line': b"writing manifest file 'limo_msgs.egg-info/SOURCES.txt'\n"}
+[3.207257] (-) TimerEvent: {}
+[3.249450] (limo_msgs) StdoutLine: {'line': b"reading manifest file 'limo_msgs.egg-info/SOURCES.txt'\n"}
+[3.249754] (limo_msgs) StdoutLine: {'line': b"writing manifest file 'limo_msgs.egg-info/SOURCES.txt'\n"}
+[3.272186] (limo_msgs) StdoutLine: {'line': b'[  5%] Built target ament_cmake_python_build_limo_msgs_egg\n'}
+[3.307401] (-) TimerEvent: {}
+[3.407642] (-) TimerEvent: {}
+[3.507888] (-) TimerEvent: {}
+[3.559177] (limo_msgs) StdoutLine: {'line': b'[  5%] Built target limo_msgs__cpp\n'}
+[3.588334] (limo_msgs) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding C object CMakeFiles/limo_msgs__rosidl_generator_c.dir/rosidl_generator_c/limo_msgs/srv/detail/limo_srv__functions.c.o\x1b[0m\n'}
+[3.589185] (limo_msgs) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/limo_msgs__rosidl_generator_c.dir/rosidl_generator_c/limo_msgs/msg/detail/limo_status__type_support.c.o\x1b[0m\n'}
+[3.589689] (limo_msgs) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding C object CMakeFiles/limo_msgs__rosidl_generator_c.dir/rosidl_generator_c/limo_msgs/action/detail/limo_action__type_support.c.o\x1b[0m\n'}
+[3.590352] (limo_msgs) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/limo_msgs__rosidl_generator_c.dir/rosidl_generator_c/limo_msgs/srv/detail/limo_srv__description.c.o\x1b[0m\n'}
+[3.590680] (limo_msgs) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding C object CMakeFiles/limo_msgs__rosidl_generator_c.dir/rosidl_generator_c/limo_msgs/msg/detail/limo_status__functions.c.o\x1b[0m\n'}
+[3.590846] (limo_msgs) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding C object CMakeFiles/limo_msgs__rosidl_generator_c.dir/rosidl_generator_c/limo_msgs/msg/detail/limo_status__description.c.o\x1b[0m\n'}
+[3.594482] (limo_msgs) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding C object CMakeFiles/limo_msgs__rosidl_generator_c.dir/rosidl_generator_c/limo_msgs/srv/detail/limo_srv__type_support.c.o\x1b[0m\n'}
+[3.594884] (limo_msgs) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding C object CMakeFiles/limo_msgs__rosidl_generator_c.dir/rosidl_generator_c/limo_msgs/action/detail/limo_action__description.c.o\x1b[0m\n'}
+[3.595152] (limo_msgs) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding C object CMakeFiles/limo_msgs__rosidl_generator_c.dir/rosidl_generator_c/limo_msgs/action/detail/limo_action__functions.c.o\x1b[0m\n'}
+[3.608026] (-) TimerEvent: {}
+[3.708333] (-) TimerEvent: {}
+[3.744545] (limo_msgs) StdoutLine: {'line': b'[ 24%] \x1b[32m\x1b[1mLinking C shared library liblimo_msgs__rosidl_generator_c.so\x1b[0m\n'}
+[3.786700] (limo_msgs) StdoutLine: {'line': b'[ 24%] Built target limo_msgs__rosidl_generator_c\n'}
+[3.797743] (limo_msgs) StdoutLine: {'line': b'[ 27%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[3.798078] (limo_msgs) StdoutLine: {'line': b'[ 27%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[3.798238] (limo_msgs) StdoutLine: {'line': b'[ 29%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[3.798316] (limo_msgs) StdoutLine: {'line': b'[ 31%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[3.798568] (limo_msgs) StdoutLine: {'line': b'[ 33%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[3.802140] (limo_msgs) StdoutLine: {'line': b'[ 35%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[3.808651] (-) TimerEvent: {}
+[3.909010] (-) TimerEvent: {}
+[4.009424] (-) TimerEvent: {}
+[4.059289] (limo_msgs) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/limo_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/limo_msgs/srv/limo_srv__type_support.cpp.o\x1b[0m\n'}
+[4.060251] (limo_msgs) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/limo_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/limo_msgs/msg/limo_status__type_support.cpp.o\x1b[0m\n'}
+[4.068199] (limo_msgs) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/limo_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/limo_msgs/action/limo_action__type_support.cpp.o\x1b[0m\n'}
+[4.089371] (limo_msgs) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/limo_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/limo_msgs/action/limo_action__type_support.cpp.o\x1b[0m\n'}
+[4.092155] (limo_msgs) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object CMakeFiles/limo_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/limo_msgs/msg/limo_status__type_support.cpp.o\x1b[0m\n'}
+[4.094159] (limo_msgs) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/limo_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/limo_msgs/srv/limo_srv__type_support.cpp.o\x1b[0m\n'}
+[4.109619] (-) TimerEvent: {}
+[4.114628] (limo_msgs) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/limo_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/limo_msgs/msg/detail/limo_status__type_support.cpp.o\x1b[0m\n'}
+[4.120457] (limo_msgs) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/limo_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/limo_msgs/action/detail/limo_action__type_support.cpp.o\x1b[0m\n'}
+[4.121475] (limo_msgs) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object CMakeFiles/limo_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/limo_msgs/srv/detail/limo_srv__type_support.cpp.o\x1b[0m\n'}
+[4.143923] (limo_msgs) StdoutLine: {'line': b'[ 53%] \x1b[32m\x1b[1mLinking CXX shared library liblimo_msgs__rosidl_typesupport_c.so\x1b[0m\n'}
+[4.170710] (limo_msgs) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding C object CMakeFiles/limo_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/limo_msgs/msg/detail/limo_status__type_support.c.o\x1b[0m\n'}
+[4.172642] (limo_msgs) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding C object CMakeFiles/limo_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/limo_msgs/srv/detail/limo_srv__type_support.c.o\x1b[0m\n'}
+[4.173878] (limo_msgs) StdoutLine: {'line': b'[ 59%] \x1b[32mBuilding C object CMakeFiles/limo_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/limo_msgs/action/detail/limo_action__type_support.c.o\x1b[0m\n'}
+[4.195132] (limo_msgs) StdoutLine: {'line': b'[ 59%] Built target limo_msgs__rosidl_typesupport_c\n'}
+[4.209735] (-) TimerEvent: {}
+[4.261141] (limo_msgs) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking C shared library liblimo_msgs__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[4.306989] (limo_msgs) StdoutLine: {'line': b'[ 61%] Built target limo_msgs__rosidl_typesupport_introspection_c\n'}
+[4.310457] (-) TimerEvent: {}
+[4.343288] (limo_msgs) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding CXX object CMakeFiles/limo_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/limo_msgs/msg/detail/dds_fastrtps/limo_status__type_support.cpp.o\x1b[0m\n'}
+[4.343608] (limo_msgs) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding CXX object CMakeFiles/limo_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/limo_msgs/srv/detail/dds_fastrtps/limo_srv__type_support.cpp.o\x1b[0m\n'}
+[4.346831] (limo_msgs) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/limo_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/limo_msgs/action/detail/dds_fastrtps/limo_action__type_support.cpp.o\x1b[0m\n'}
+[4.348546] (limo_msgs) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding CXX object CMakeFiles/limo_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/limo_msgs/srv/detail/limo_srv__type_support_c.cpp.o\x1b[0m\n'}
+[4.352172] (limo_msgs) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object CMakeFiles/limo_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/limo_msgs/action/detail/limo_action__type_support_c.cpp.o\x1b[0m\n'}
+[4.353378] (limo_msgs) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/limo_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/limo_msgs/msg/detail/limo_status__type_support_c.cpp.o\x1b[0m\n'}
+[4.410589] (-) TimerEvent: {}
+[4.512085] (-) TimerEvent: {}
+[4.612464] (-) TimerEvent: {}
+[4.712944] (-) TimerEvent: {}
+[4.746314] (limo_msgs) StdoutLine: {'line': b'[ 74%] \x1b[32m\x1b[1mLinking CXX shared library liblimo_msgs__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[4.813087] (-) TimerEvent: {}
+[4.845411] (limo_msgs) StdoutLine: {'line': b'[ 74%] Built target limo_msgs__rosidl_typesupport_cpp\n'}
+[4.867302] (limo_msgs) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX shared library liblimo_msgs__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[4.873912] (limo_msgs) StdoutLine: {'line': b'[ 77%] \x1b[32m\x1b[1mLinking CXX shared library liblimo_msgs__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[4.913221] (-) TimerEvent: {}
+[4.923858] (limo_msgs) StdoutLine: {'line': b'[ 77%] Built target limo_msgs__rosidl_typesupport_fastrtps_c\n'}
+[4.939940] (limo_msgs) StdoutLine: {'line': b'[ 77%] Built target limo_msgs__rosidl_typesupport_introspection_cpp\n'}
+[5.013355] (-) TimerEvent: {}
+[5.113698] (-) TimerEvent: {}
+[5.187167] (limo_msgs) StdoutLine: {'line': b'[ 79%] \x1b[32m\x1b[1mLinking CXX shared library liblimo_msgs__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[5.213822] (-) TimerEvent: {}
+[5.259153] (limo_msgs) StdoutLine: {'line': b'[ 79%] Built target limo_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[5.280065] (limo_msgs) StdoutLine: {'line': b'[ 79%] Built target limo_msgs\n'}
+[5.301338] (limo_msgs) StdoutLine: {'line': b'[ 81%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[5.313949] (-) TimerEvent: {}
+[5.414239] (-) TimerEvent: {}
+[5.514493] (-) TimerEvent: {}
+[5.614778] (-) TimerEvent: {}
+[5.715100] (-) TimerEvent: {}
+[5.815440] (-) TimerEvent: {}
+[5.817626] (limo_msgs) StdoutLine: {'line': b'[ 81%] Built target limo_msgs__py\n'}
+[5.840711] (limo_msgs) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding C object CMakeFiles/limo_msgs__rosidl_generator_py.dir/rosidl_generator_py/limo_msgs/msg/_limo_status_s.c.o\x1b[0m\n'}
+[5.841544] (limo_msgs) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/limo_msgs__rosidl_generator_py.dir/rosidl_generator_py/limo_msgs/action/_limo_action_s.c.o\x1b[0m\n'}
+[5.842272] (limo_msgs) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/limo_msgs__rosidl_generator_py.dir/rosidl_generator_py/limo_msgs/srv/_limo_srv_s.c.o\x1b[0m\n'}
+[5.915578] (-) TimerEvent: {}
+[6.016113] (-) TimerEvent: {}
+[6.059990] (limo_msgs) StdoutLine: {'line': b'[ 88%] \x1b[32m\x1b[1mLinking C shared library liblimo_msgs__rosidl_generator_py.so\x1b[0m\n'}
+[6.108770] (limo_msgs) StdoutLine: {'line': b'[ 88%] Built target limo_msgs__rosidl_generator_py\n'}
+[6.116245] (-) TimerEvent: {}
+[6.131650] (limo_msgs) StdoutLine: {'line': b'[ 94%] \x1b[32mBuilding C object CMakeFiles/limo_msgs_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/limo_msgs/_limo_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[6.131875] (limo_msgs) StdoutLine: {'line': b'[ 94%] \x1b[32mBuilding C object CMakeFiles/limo_msgs_s__rosidl_typesupport_c.dir/rosidl_generator_py/limo_msgs/_limo_msgs_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[6.131955] (limo_msgs) StdoutLine: {'line': b'[ 94%] \x1b[32mBuilding C object CMakeFiles/limo_msgs_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/limo_msgs/_limo_msgs_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[6.216470] (-) TimerEvent: {}
+[6.239475] (limo_msgs) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/limo_msgs/limo_msgs_s__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[6.241112] (limo_msgs) StdoutLine: {'line': b'[ 98%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/limo_msgs/limo_msgs_s__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[6.244169] (limo_msgs) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/limo_msgs/limo_msgs_s__rosidl_typesupport_c.so\x1b[0m\n'}
+[6.273466] (limo_msgs) StdoutLine: {'line': b'[100%] Built target limo_msgs_s__rosidl_typesupport_introspection_c\n'}
+[6.277314] (limo_msgs) StdoutLine: {'line': b'[100%] Built target limo_msgs_s__rosidl_typesupport_fastrtps_c\n'}
+[6.277461] (limo_msgs) StdoutLine: {'line': b'[100%] Built target limo_msgs_s__rosidl_typesupport_c\n'}
+[6.288187] (limo_msgs) CommandEnded: {'returncode': 0}
+[6.288794] (limo_msgs) JobProgress: {'identifier': 'limo_msgs', 'progress': 'install'}
+[6.297650] (limo_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/artil/ROS/build/limo_msgs'], 'cwd': '/home/artil/ROS/build/limo_msgs', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'USER': 'artil', 'FONTCONFIG_PATH': '/etc/fonts', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'GIO_MODULE_DIR': '/home/artil/snap/code/common/.cache/gio-modules', 'XDG_SESSION_TYPE': 'wayland', 'GIT_ASKPASS': '/snap/code/211/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'GTK_EXE_PREFIX_VSCODE_SNAP_ORIG': '', 'GDK_BACKEND_VSCODE_SNAP_ORIG': '', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/artil', 'CHROME_DESKTOP': 'code.desktop', 'LOCPATH_VSCODE_SNAP_ORIG': '', 'OLDPWD': '/home/artil/ROS', 'TERM_PROGRAM_VERSION': '1.105.1', 'DESKTOP_SESSION': 'ubuntu', 'GTK_PATH': '/snap/code/211/usr/lib/x86_64-linux-gnu/gtk-3.0', 'NVM_BIN': '/home/artil/.nvm/versions/node/v20.19.5/bin', 'NVM_INC': '/home/artil/.nvm/versions/node/v20.19.5/include/node', 'XDG_DATA_HOME_VSCODE_SNAP_ORIG': '', 'GTK_IM_MODULE_FILE': '/home/artil/snap/code/common/.cache/immodules/immodules.cache', 'GIO_LAUNCHED_DESKTOP_FILE': '/var/lib/snapd/desktop/applications/code_code.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG': '', 'VSCODE_GIT_ASKPASS_MAIN': '/snap/code/211/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/snap/code/211/usr/share/code/code', 'MANAGERPID': '2604', 'SYSTEMD_EXEC_PID': '2840', 'IM_CONFIG_CHECK_ENV': '1', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '3765', 'NVM_DIR': '/home/artil/.nvm', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'artil', 'JOURNAL_STREAM': '9:28274', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'XDG_DATA_DIRS_VSCODE_SNAP_ORIG': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'USERNAME': 'artil', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/home/artil/.nvm/versions/node/v20.19.5/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/artil:@/tmp/.ICE-unix/2791,unix/artil:/tmp/.ICE-unix/2791', 'GTK_EXE_PREFIX': '/snap/code/211/usr', 'INVOCATION_ID': 'b43901d274e84ec38d50913dec381251', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'LOCPATH': '/snap/code/211/usr/lib/locale', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'CLINE_ACTIVE': 'true', 'GIO_MODULE_DIR_VSCODE_SNAP_ORIG': '', 'XDG_DATA_HOME': '/home/artil/snap/code/211/.local/share', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.05O2F3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-d383993282.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'GSETTINGS_SCHEMA_DIR': '/home/artil/snap/code/211/.local/share/glib-2.0/schemas', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GTK_PATH_VSCODE_SNAP_ORIG': '', 'FONTCONFIG_FILE': '/etc/fonts/fonts.conf', 'GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG': '', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/artil/ROS/build/limo_msgs', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'NVM_CD_FLAGS': '', 'XDG_DATA_DIRS': '/home/artil/snap/code/211/.local/share:/home/artil/snap/code/211:/snap/code/211/usr/share:/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[6.305894] (limo_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[6.306054] (limo_msgs) StdoutLine: {'line': b'-- Installing: /home/artil/ROS/install/limo_msgs/share/ament_index/resource_index/rosidl_interfaces/limo_msgs\n'}
+[6.306216] (limo_msgs) StdoutLine: {'line': b'-- Installing: /home/artil/ROS/install/limo_msgs/share/limo_msgs/msg/LimoStatus.json\n'}
+[6.306327] (limo_msgs) StdoutLine: {'line': b'-- Installing: /home/artil/ROS/install/limo_msgs/share/limo_msgs/srv/LimoSrv.json\n'}
+[6.306489] (limo_msgs) StdoutLine: {'line': b'-- Installing: /home/artil/ROS/install/limo_msgs/share/limo_msgs/action/LimoAction.json\n'}
+[6.306608] (limo_msgs) StdoutLine: {'line': b'-- Installing: /home/artil/ROS/install/limo_msgs/include/limo_msgs/limo_msgs\n'}
+[6.306707] (limo_msgs) StdoutLine: {'line': b'-- Installing: /home/artil/ROS/install/limo_msgs/include/limo_msgs/limo_msgs/srv\n'}
+[6.306811] (limo_msgs) StdoutLine: {'line': b'-- Installing: /home/artil/ROS/install/limo_msgs/include/limo_msgs/limo_msgs/srv/detail\n'}
+[6.306977] (limo_msgs) StdoutLine: {'line': b'-- Installing: /home/artil/ROS/install/limo_msgs/include/limo_msgs/limo_msgs/srv/detail/limo_srv__functions.h\n'}
+[6.307031] (limo_msgs) StdoutLine: {'line': b'-- Installing: /home/artil/ROS/install/limo_msgs/include/limo_msgs/limo_msgs/srv/detail/limo_srv__functions.c\n'}
+[6.307149] (limo_msgs) StdoutLine: {'line': b'-- Installing: /home/artil/ROS/install/limo_msgs/include/limo_msgs/limo_msgs/srv/detail/limo_srv__struct.h\n'}
+[6.307236] (limo_msgs) StdoutLine: {'line': b'-- Installing: /home/artil/ROS/install/limo_msgs/include/limo_msgs/limo_msgs/srv/detail/limo_srv__type_support.h\n'}
+[6.307333] (limo_msgs) StdoutLine: {'line': b'-- Installing: /home/artil/ROS/install/limo_msgs/include/limo_msgs/limo_msgs/srv/detail/limo_srv__description.c\n'}
+[6.307434] (limo_msgs) StdoutLine: {'line': b'-- Installing: /home/artil/ROS/install/limo_msgs/include/limo_msgs/limo_msgs/srv/detail/limo_srv__type_support.c\n'}
+[6.307482] (limo_msgs) StdoutLine: {'line': b'-- Installing: /home/artil/ROS/install/limo_msgs/include/limo_msgs/limo_msgs/srv/limo_srv.h\n'}
+[6.307524] (limo_msgs) StdoutLine: {'line': b'-- Installing: /home/artil/ROS/install/limo_msgs/include/limo_msgs/limo_msgs/action\n'}
+[6.307683] (limo_msgs) StdoutLine: {'line': b'-- Installing: /home/artil/ROS/install/limo_msgs/include/limo_msgs/limo_msgs/action/detail\n'}
+[6.307797] (limo_msgs) StdoutLine: {'line': b'-- Installing: /home/artil/ROS/install/limo_msgs/include/limo_msgs/limo_msgs/action/detail/limo_action__functions.h\n'}
+[6.307922] (limo_msgs) StdoutLine: {'line': b'-- Installing: /home/artil/ROS/install/limo_msgs/include/limo_msgs/limo_msgs/action/detail/limo_action__functions.c\n'}
+[6.307996] (limo_msgs) StdoutLine: {'line': b'-- Installing: /home/artil/ROS/install/limo_msgs/include/limo_msgs/limo_msgs/action/detail/limo_action__struct.h\n'}
+[6.308096] (limo_msgs) StdoutLine: {'line': b'-- Installing: /home/artil/ROS/install/limo_msgs/include/limo_msgs/limo_msgs/action/detail/limo_action__type_support.c\n'}
+[6.308165] (limo_msgs) StdoutLine: {'line': b'-- Installing: /home/artil/ROS/install/limo_msgs/include/limo_msgs/limo_msgs/action/detail/limo_action__type_support.h\n'}
+[6.308355] (limo_msgs) StdoutLine: {'line': b'-- Installing: /home/artil/ROS/install/limo_msgs/include/limo_msgs/limo_msgs/action/detail/limo_action__description.c\n'}
+[6.308438] (limo_msgs) StdoutLine: {'line': b'-- Installing: /home/artil/ROS/install/limo_msgs/include/limo_msgs/limo_msgs/action/limo_action.h\n'}
+[6.308500] (limo_msgs) StdoutLine: {'line': b'-- Installing: /home/artil/ROS/install/limo_msgs/include/limo_msgs/limo_msgs/msg\n'}
+[6.308599] (limo_msgs) StdoutLine: {'line': b'-- Installing: /home/artil/ROS/install/limo_msgs/include/limo_msgs/limo_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[6.308696] (limo_msgs) StdoutLine: {'line': b'-- Installing: /home/artil/ROS/install/limo_msgs/include/limo_msgs/limo_msgs/msg/detail\n'}
+[6.308837] (limo_msgs) StdoutLine: {'line': b'-- Installing: /home/artil/ROS/install/limo_msgs/include/limo_msgs/limo_msgs/msg/detail/limo_status__type_support.h\n'}
+[6.309075] (limo_msgs) StdoutLine: {'line': b'-- Installing: /home/artil/ROS/install/limo_msgs/include/limo_msgs/limo_msgs/msg/detail/limo_status__description.c\n'}
+[6.309144] (limo_msgs) StdoutLine: {'line': b'-- Installing: /home/artil/ROS/install/limo_msgs/include/limo_msgs/limo_msgs/msg/detail/limo_status__type_support.c\n'}
+[6.309244] (limo_msgs) StdoutLine: {'line': b'-- Installing: /home/artil/ROS/install/limo_msgs/include/limo_msgs/limo_msgs/msg/detail/limo_status__functions.c\n'}
+[6.309339] (limo_msgs) StdoutLine: {'line': b'-- Installing: /home/artil/ROS/install/limo_msgs/include/limo_msgs/limo_msgs/msg/detail/limo_status__struct.h\n'}
+[6.309438] (limo_msgs) StdoutLine: {'line': b'-- Installing: /home/artil/ROS/install/limo_msgs/include/limo_msgs/limo_msgs/msg/detail/limo_status__functions.h\n'}
+[6.309533] (limo_msgs) StdoutLine: {'line': b'-- Installing: /home/artil/ROS/install/limo_msgs/include/limo_msgs/limo_msgs/msg/limo_status.h\n'}
+[6.309630] (limo_msgs) StdoutLine: {'line': b'-- Installing: /home/artil/ROS/install/limo_msgs/share/limo_msgs/environment/library_path.sh\n'}
+[6.309791] (limo_msgs) StdoutLine: {'line': b'-- Installing: /home/artil/ROS/install/limo_msgs/share/limo_msgs/environment/library_path.dsv\n'}
+[6.309842] (limo_msgs) StdoutLine: {'line': b'-- Installing: /home/artil/ROS/install/limo_msgs/lib/liblimo_msgs__rosidl_generator_c.so\n'}
+[6.310010] (limo_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/artil/ROS/install/limo_msgs/lib/liblimo_msgs__rosidl_generator_c.so" to ""\n'}
+[6.310293] (limo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/artil/ROS/install/limo_msgs/include/limo_msgs/limo_msgs\n'}
+[6.310399] (limo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/artil/ROS/install/limo_msgs/include/limo_msgs/limo_msgs/srv\n'}
+[6.310497] (limo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/artil/ROS/install/limo_msgs/include/limo_msgs/limo_msgs/srv/detail\n'}
+[6.310594] (limo_msgs) StdoutLine: {'line': b'-- Installing: /home/artil/ROS/install/limo_msgs/include/limo_msgs/limo_msgs/srv/detail/limo_srv__rosidl_typesupport_fastrtps_c.h\n'}
+[6.310770] (limo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/artil/ROS/install/limo_msgs/include/limo_msgs/limo_msgs/action\n'}
+[6.310841] (limo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/artil/ROS/install/limo_msgs/include/limo_msgs/limo_msgs/action/detail\n'}
+[6.310938] (limo_msgs) StdoutLine: {'line': b'-- Installing: /home/artil/ROS/install/limo_msgs/include/limo_msgs/limo_msgs/action/detail/limo_action__rosidl_typesupport_fastrtps_c.h\n'}
+[6.311051] (limo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/artil/ROS/install/limo_msgs/include/limo_msgs/limo_msgs/msg\n'}
+[6.311119] (limo_msgs) StdoutLine: {'line': b'-- Installing: /home/artil/ROS/install/limo_msgs/include/limo_msgs/limo_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[6.311188] (limo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/artil/ROS/install/limo_msgs/include/limo_msgs/limo_msgs/msg/detail\n'}
+[6.311340] (limo_msgs) StdoutLine: {'line': b'-- Installing: /home/artil/ROS/install/limo_msgs/include/limo_msgs/limo_msgs/msg/detail/limo_status__rosidl_typesupport_fastrtps_c.h\n'}
+[6.311465] (limo_msgs) StdoutLine: {'line': b'-- Installing: /home/artil/ROS/install/limo_msgs/lib/liblimo_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[6.311640] (limo_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/artil/ROS/install/limo_msgs/lib/liblimo_msgs__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[6.311736] (limo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/artil/ROS/install/limo_msgs/include/limo_msgs/limo_msgs\n'}
+[6.311831] (limo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/artil/ROS/install/limo_msgs/include/limo_msgs/limo_msgs/srv\n'}
+[6.311927] (limo_msgs) StdoutLine: {'line': b'-- Installing: /home/artil/ROS/install/limo_msgs/include/limo_msgs/limo_msgs/srv/limo_srv.hpp\n'}
+[6.312198] (limo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/artil/ROS/install/limo_msgs/include/limo_msgs/limo_msgs/srv/detail\n'}
+[6.312285] (limo_msgs) StdoutLine: {'line': b'-- Installing: /home/artil/ROS/install/limo_msgs/include/limo_msgs/limo_msgs/srv/detail/limo_srv__traits.hpp\n'}
+[6.312452] (limo_msgs) StdoutLine: {'line': b'-- Installing: /home/artil/ROS/install/limo_msgs/include/limo_msgs/limo_msgs/srv/detail/limo_srv__type_support.hpp\n'}
+[6.312559] (limo_msgs) StdoutLine: {'line': b'-- Installing: /home/artil/ROS/install/limo_msgs/include/limo_msgs/limo_msgs/srv/detail/limo_srv__struct.hpp\n'}
+[6.312655] (limo_msgs) StdoutLine: {'line': b'-- Installing: /home/artil/ROS/install/limo_msgs/include/limo_msgs/limo_msgs/srv/detail/limo_srv__builder.hpp\n'}
+[6.312747] (limo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/artil/ROS/install/limo_msgs/include/limo_msgs/limo_msgs/action\n'}
+[6.312838] (limo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/artil/ROS/install/limo_msgs/include/limo_msgs/limo_msgs/action/detail\n'}
+[6.312930] (limo_msgs) StdoutLine: {'line': b'-- Installing: /home/artil/ROS/install/limo_msgs/include/limo_msgs/limo_msgs/action/detail/limo_action__type_support.hpp\n'}
+[6.313090] (limo_msgs) StdoutLine: {'line': b'-- Installing: /home/artil/ROS/install/limo_msgs/include/limo_msgs/limo_msgs/action/detail/limo_action__traits.hpp\n'}
+[6.313173] (limo_msgs) StdoutLine: {'line': b'-- Installing: /home/artil/ROS/install/limo_msgs/include/limo_msgs/limo_msgs/action/detail/limo_action__struct.hpp\n'}
+[6.313269] (limo_msgs) StdoutLine: {'line': b'-- Installing: /home/artil/ROS/install/limo_msgs/include/limo_msgs/limo_msgs/action/detail/limo_action__builder.hpp\n'}
+[6.313365] (limo_msgs) StdoutLine: {'line': b'-- Installing: /home/artil/ROS/install/limo_msgs/include/limo_msgs/limo_msgs/action/limo_action.hpp\n'}
+[6.313461] (limo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/artil/ROS/install/limo_msgs/include/limo_msgs/limo_msgs/msg\n'}
+[6.313555] (limo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/artil/ROS/install/limo_msgs/include/limo_msgs/limo_msgs/msg/detail\n'}
+[6.313646] (limo_msgs) StdoutLine: {'line': b'-- Installing: /home/artil/ROS/install/limo_msgs/include/limo_msgs/limo_msgs/msg/detail/limo_status__type_support.hpp\n'}
+[6.313741] (limo_msgs) StdoutLine: {'line': b'-- Installing: /home/artil/ROS/install/limo_msgs/include/limo_msgs/limo_msgs/msg/detail/limo_status__traits.hpp\n'}
+[6.313832] (limo_msgs) StdoutLine: {'line': b'-- Installing: /home/artil/ROS/install/limo_msgs/include/limo_msgs/limo_msgs/msg/detail/limo_status__builder.hpp\n'}
+[6.313923] (limo_msgs) StdoutLine: {'line': b'-- Installing: /home/artil/ROS/install/limo_msgs/include/limo_msgs/limo_msgs/msg/detail/limo_status__struct.hpp\n'}
+[6.314028] (limo_msgs) StdoutLine: {'line': b'-- Installing: /home/artil/ROS/install/limo_msgs/include/limo_msgs/limo_msgs/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[6.314125] (limo_msgs) StdoutLine: {'line': b'-- Installing: /home/artil/ROS/install/limo_msgs/include/limo_msgs/limo_msgs/msg/limo_status.hpp\n'}
+[6.314220] (limo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/artil/ROS/install/limo_msgs/include/limo_msgs/limo_msgs\n'}
+[6.314342] (limo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/artil/ROS/install/limo_msgs/include/limo_msgs/limo_msgs/srv\n'}
+[6.314578] (limo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/artil/ROS/install/limo_msgs/include/limo_msgs/limo_msgs/srv/detail\n'}
+[6.314721] (limo_msgs) StdoutLine: {'line': b'-- Installing: /home/artil/ROS/install/limo_msgs/include/limo_msgs/limo_msgs/srv/detail/limo_srv__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[6.314820] (limo_msgs) StdoutLine: {'line': b'-- Installing: /home/artil/ROS/install/limo_msgs/include/limo_msgs/limo_msgs/srv/detail/dds_fastrtps\n'}
+[6.314918] (limo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/artil/ROS/install/limo_msgs/include/limo_msgs/limo_msgs/action\n'}
+[6.315018] (limo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/artil/ROS/install/limo_msgs/include/limo_msgs/limo_msgs/action/detail\n'}
+[6.315110] (limo_msgs) StdoutLine: {'line': b'-- Installing: /home/artil/ROS/install/limo_msgs/include/limo_msgs/limo_msgs/action/detail/limo_action__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[6.315175] (limo_msgs) StdoutLine: {'line': b'-- Installing: /home/artil/ROS/install/limo_msgs/include/limo_msgs/limo_msgs/action/detail/dds_fastrtps\n'}
+[6.315264] (limo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/artil/ROS/install/limo_msgs/include/limo_msgs/limo_msgs/msg\n'}
+[6.315361] (limo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/artil/ROS/install/limo_msgs/include/limo_msgs/limo_msgs/msg/detail\n'}
+[6.315458] (limo_msgs) StdoutLine: {'line': b'-- Installing: /home/artil/ROS/install/limo_msgs/include/limo_msgs/limo_msgs/msg/detail/dds_fastrtps\n'}
+[6.315553] (limo_msgs) StdoutLine: {'line': b'-- Installing: /home/artil/ROS/install/limo_msgs/include/limo_msgs/limo_msgs/msg/detail/limo_status__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[6.315645] (limo_msgs) StdoutLine: {'line': b'-- Installing: /home/artil/ROS/install/limo_msgs/include/limo_msgs/limo_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[6.315735] (limo_msgs) StdoutLine: {'line': b'-- Installing: /home/artil/ROS/install/limo_msgs/lib/liblimo_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[6.315831] (limo_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/artil/ROS/install/limo_msgs/lib/liblimo_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[6.315926] (limo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/artil/ROS/install/limo_msgs/include/limo_msgs/limo_msgs\n'}
+[6.316182] (limo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/artil/ROS/install/limo_msgs/include/limo_msgs/limo_msgs/srv\n'}
+[6.316268] (limo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/artil/ROS/install/limo_msgs/include/limo_msgs/limo_msgs/srv/detail\n'}
+[6.316365] (limo_msgs) StdoutLine: {'line': b'-- Installing: /home/artil/ROS/install/limo_msgs/include/limo_msgs/limo_msgs/srv/detail/limo_srv__rosidl_typesupport_introspection_c.h\n'}
+[6.316460] (-) TimerEvent: {}
+[6.316600] (limo_msgs) StdoutLine: {'line': b'-- Installing: /home/artil/ROS/install/limo_msgs/include/limo_msgs/limo_msgs/srv/detail/limo_srv__type_support.c\n'}
+[6.316747] (limo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/artil/ROS/install/limo_msgs/include/limo_msgs/limo_msgs/action\n'}
+[6.316987] (limo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/artil/ROS/install/limo_msgs/include/limo_msgs/limo_msgs/action/detail\n'}
+[6.317118] (limo_msgs) StdoutLine: {'line': b'-- Installing: /home/artil/ROS/install/limo_msgs/include/limo_msgs/limo_msgs/action/detail/limo_action__rosidl_typesupport_introspection_c.h\n'}
+[6.317163] (limo_msgs) StdoutLine: {'line': b'-- Installing: /home/artil/ROS/install/limo_msgs/include/limo_msgs/limo_msgs/action/detail/limo_action__type_support.c\n'}
+[6.317263] (limo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/artil/ROS/install/limo_msgs/include/limo_msgs/limo_msgs/msg\n'}
+[6.317362] (limo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/artil/ROS/install/limo_msgs/include/limo_msgs/limo_msgs/msg/detail\n'}
+[6.317458] (limo_msgs) StdoutLine: {'line': b'-- Installing: /home/artil/ROS/install/limo_msgs/include/limo_msgs/limo_msgs/msg/detail/limo_status__rosidl_typesupport_introspection_c.h\n'}
+[6.317553] (limo_msgs) StdoutLine: {'line': b'-- Installing: /home/artil/ROS/install/limo_msgs/include/limo_msgs/limo_msgs/msg/detail/limo_status__type_support.c\n'}
+[6.317647] (limo_msgs) StdoutLine: {'line': b'-- Installing: /home/artil/ROS/install/limo_msgs/include/limo_msgs/limo_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[6.317727] (limo_msgs) StdoutLine: {'line': b'-- Installing: /home/artil/ROS/install/limo_msgs/lib/liblimo_msgs__rosidl_typesupport_introspection_c.so\n'}
+[6.317770] (limo_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/artil/ROS/install/limo_msgs/lib/liblimo_msgs__rosidl_typesupport_introspection_c.so" to ""\n'}
+[6.317810] (limo_msgs) StdoutLine: {'line': b'-- Installing: /home/artil/ROS/install/limo_msgs/lib/liblimo_msgs__rosidl_typesupport_c.so\n'}
+[6.317948] (limo_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/artil/ROS/install/limo_msgs/lib/liblimo_msgs__rosidl_typesupport_c.so" to ""\n'}
+[6.318113] (limo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/artil/ROS/install/limo_msgs/include/limo_msgs/limo_msgs\n'}
+[6.318187] (limo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/artil/ROS/install/limo_msgs/include/limo_msgs/limo_msgs/srv\n'}
+[6.318236] (limo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/artil/ROS/install/limo_msgs/include/limo_msgs/limo_msgs/srv/detail\n'}
+[6.318277] (limo_msgs) StdoutLine: {'line': b'-- Installing: /home/artil/ROS/install/limo_msgs/include/limo_msgs/limo_msgs/srv/detail/limo_srv__type_support.cpp\n'}
+[6.318318] (limo_msgs) StdoutLine: {'line': b'-- Installing: /home/artil/ROS/install/limo_msgs/include/limo_msgs/limo_msgs/srv/detail/limo_srv__rosidl_typesupport_introspection_cpp.hpp\n'}
+[6.318360] (limo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/artil/ROS/install/limo_msgs/include/limo_msgs/limo_msgs/action\n'}
+[6.318399] (limo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/artil/ROS/install/limo_msgs/include/limo_msgs/limo_msgs/action/detail\n'}
+[6.318440] (limo_msgs) StdoutLine: {'line': b'-- Installing: /home/artil/ROS/install/limo_msgs/include/limo_msgs/limo_msgs/action/detail/limo_action__rosidl_typesupport_introspection_cpp.hpp\n'}
+[6.318514] (limo_msgs) StdoutLine: {'line': b'-- Installing: /home/artil/ROS/install/limo_msgs/include/limo_msgs/limo_msgs/action/detail/limo_action__type_support.cpp\n'}
+[6.318613] (limo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/artil/ROS/install/limo_msgs/include/limo_msgs/limo_msgs/msg\n'}
+[6.318689] (limo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/artil/ROS/install/limo_msgs/include/limo_msgs/limo_msgs/msg/detail\n'}
+[6.318733] (limo_msgs) StdoutLine: {'line': b'-- Installing: /home/artil/ROS/install/limo_msgs/include/limo_msgs/limo_msgs/msg/detail/limo_status__type_support.cpp\n'}
+[6.318789] (limo_msgs) StdoutLine: {'line': b'-- Installing: /home/artil/ROS/install/limo_msgs/include/limo_msgs/limo_msgs/msg/detail/limo_status__rosidl_typesupport_introspection_cpp.hpp\n'}
+[6.318879] (limo_msgs) StdoutLine: {'line': b'-- Installing: /home/artil/ROS/install/limo_msgs/lib/liblimo_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[6.318977] (limo_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/artil/ROS/install/limo_msgs/lib/liblimo_msgs__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[6.319092] (limo_msgs) StdoutLine: {'line': b'-- Installing: /home/artil/ROS/install/limo_msgs/lib/liblimo_msgs__rosidl_typesupport_cpp.so\n'}
+[6.319357] (limo_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/artil/ROS/install/limo_msgs/lib/liblimo_msgs__rosidl_typesupport_cpp.so" to ""\n'}
+[6.319470] (limo_msgs) StdoutLine: {'line': b'-- Installing: /home/artil/ROS/install/limo_msgs/share/limo_msgs/environment/pythonpath.sh\n'}
+[6.319557] (limo_msgs) StdoutLine: {'line': b'-- Installing: /home/artil/ROS/install/limo_msgs/share/limo_msgs/environment/pythonpath.dsv\n'}
+[6.319652] (limo_msgs) StdoutLine: {'line': b'-- Installing: /home/artil/ROS/install/limo_msgs/lib/python3.12/site-packages/limo_msgs-0.0.0-py3.12.egg-info\n'}
+[6.319749] (limo_msgs) StdoutLine: {'line': b'-- Installing: /home/artil/ROS/install/limo_msgs/lib/python3.12/site-packages/limo_msgs-0.0.0-py3.12.egg-info/SOURCES.txt\n'}
+[6.319847] (limo_msgs) StdoutLine: {'line': b'-- Installing: /home/artil/ROS/install/limo_msgs/lib/python3.12/site-packages/limo_msgs-0.0.0-py3.12.egg-info/PKG-INFO\n'}
+[6.319908] (limo_msgs) StdoutLine: {'line': b'-- Installing: /home/artil/ROS/install/limo_msgs/lib/python3.12/site-packages/limo_msgs-0.0.0-py3.12.egg-info/top_level.txt\n'}
+[6.320027] (limo_msgs) StdoutLine: {'line': b'-- Installing: /home/artil/ROS/install/limo_msgs/lib/python3.12/site-packages/limo_msgs-0.0.0-py3.12.egg-info/dependency_links.txt\n'}
+[6.320177] (limo_msgs) StdoutLine: {'line': b'-- Installing: /home/artil/ROS/install/limo_msgs/lib/python3.12/site-packages/limo_msgs\n'}
+[6.320280] (limo_msgs) StdoutLine: {'line': b'-- Installing: /home/artil/ROS/install/limo_msgs/lib/python3.12/site-packages/limo_msgs/_limo_msgs_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[6.320345] (limo_msgs) StdoutLine: {'line': b'-- Installing: /home/artil/ROS/install/limo_msgs/lib/python3.12/site-packages/limo_msgs/srv\n'}
+[6.320414] (limo_msgs) StdoutLine: {'line': b'-- Installing: /home/artil/ROS/install/limo_msgs/lib/python3.12/site-packages/limo_msgs/srv/_limo_srv_s.c\n'}
+[6.320464] (limo_msgs) StdoutLine: {'line': b'-- Installing: /home/artil/ROS/install/limo_msgs/lib/python3.12/site-packages/limo_msgs/srv/__init__.py\n'}
+[6.320548] (limo_msgs) StdoutLine: {'line': b'-- Installing: /home/artil/ROS/install/limo_msgs/lib/python3.12/site-packages/limo_msgs/srv/_limo_srv.py\n'}
+[6.320649] (limo_msgs) StdoutLine: {'line': b'-- Installing: /home/artil/ROS/install/limo_msgs/lib/python3.12/site-packages/limo_msgs/__init__.py\n'}
+[6.320746] (limo_msgs) StdoutLine: {'line': b'-- Installing: /home/artil/ROS/install/limo_msgs/lib/python3.12/site-packages/limo_msgs/limo_msgs_s__rosidl_typesupport_introspection_c.so\n'}
+[6.320844] (limo_msgs) StdoutLine: {'line': b'-- Installing: /home/artil/ROS/install/limo_msgs/lib/python3.12/site-packages/limo_msgs/action\n'}
+[6.320940] (limo_msgs) StdoutLine: {'line': b'-- Installing: /home/artil/ROS/install/limo_msgs/lib/python3.12/site-packages/limo_msgs/action/__init__.py\n'}
+[6.321055] (limo_msgs) StdoutLine: {'line': b'-- Installing: /home/artil/ROS/install/limo_msgs/lib/python3.12/site-packages/limo_msgs/action/_limo_action.py\n'}
+[6.321153] (limo_msgs) StdoutLine: {'line': b'-- Installing: /home/artil/ROS/install/limo_msgs/lib/python3.12/site-packages/limo_msgs/action/_limo_action_s.c\n'}
+[6.321247] (limo_msgs) StdoutLine: {'line': b'-- Installing: /home/artil/ROS/install/limo_msgs/lib/python3.12/site-packages/limo_msgs/_limo_msgs_s.ep.rosidl_typesupport_c.c\n'}
+[6.321342] (limo_msgs) StdoutLine: {'line': b'-- Installing: /home/artil/ROS/install/limo_msgs/lib/python3.12/site-packages/limo_msgs/msg\n'}
+[6.321436] (limo_msgs) StdoutLine: {'line': b'-- Installing: /home/artil/ROS/install/limo_msgs/lib/python3.12/site-packages/limo_msgs/msg/__init__.py\n'}
+[6.321527] (limo_msgs) StdoutLine: {'line': b'-- Installing: /home/artil/ROS/install/limo_msgs/lib/python3.12/site-packages/limo_msgs/msg/_limo_status.py\n'}
+[6.321685] (limo_msgs) StdoutLine: {'line': b'-- Installing: /home/artil/ROS/install/limo_msgs/lib/python3.12/site-packages/limo_msgs/msg/_limo_status_s.c\n'}
+[6.321733] (limo_msgs) StdoutLine: {'line': b'-- Installing: /home/artil/ROS/install/limo_msgs/lib/python3.12/site-packages/limo_msgs/_limo_msgs_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[6.321773] (limo_msgs) StdoutLine: {'line': b'-- Installing: /home/artil/ROS/install/limo_msgs/lib/python3.12/site-packages/limo_msgs/limo_msgs_s__rosidl_typesupport_fastrtps_c.so\n'}
+[6.321812] (limo_msgs) StdoutLine: {'line': b'-- Installing: /home/artil/ROS/install/limo_msgs/lib/python3.12/site-packages/limo_msgs/limo_msgs_s__rosidl_typesupport_c.so\n'}
+[6.365823] (limo_msgs) StdoutLine: {'line': b"Listing '/home/artil/ROS/install/limo_msgs/lib/python3.12/site-packages/limo_msgs'...\n"}
+[6.366004] (limo_msgs) StdoutLine: {'line': b"Compiling '/home/artil/ROS/install/limo_msgs/lib/python3.12/site-packages/limo_msgs/__init__.py'...\n"}
+[6.366093] (limo_msgs) StdoutLine: {'line': b"Listing '/home/artil/ROS/install/limo_msgs/lib/python3.12/site-packages/limo_msgs/action'...\n"}
+[6.366139] (limo_msgs) StdoutLine: {'line': b"Compiling '/home/artil/ROS/install/limo_msgs/lib/python3.12/site-packages/limo_msgs/action/__init__.py'...\n"}
+[6.366191] (limo_msgs) StdoutLine: {'line': b"Compiling '/home/artil/ROS/install/limo_msgs/lib/python3.12/site-packages/limo_msgs/action/_limo_action.py'...\n"}
+[6.366233] (limo_msgs) StdoutLine: {'line': b"Listing '/home/artil/ROS/install/limo_msgs/lib/python3.12/site-packages/limo_msgs/msg'...\n"}
+[6.366285] (limo_msgs) StdoutLine: {'line': b"Compiling '/home/artil/ROS/install/limo_msgs/lib/python3.12/site-packages/limo_msgs/msg/__init__.py'...\n"}
+[6.366332] (limo_msgs) StdoutLine: {'line': b"Compiling '/home/artil/ROS/install/limo_msgs/lib/python3.12/site-packages/limo_msgs/msg/_limo_status.py'...\n"}
+[6.366370] (limo_msgs) StdoutLine: {'line': b"Listing '/home/artil/ROS/install/limo_msgs/lib/python3.12/site-packages/limo_msgs/srv'...\n"}
+[6.366407] (limo_msgs) StdoutLine: {'line': b"Compiling '/home/artil/ROS/install/limo_msgs/lib/python3.12/site-packages/limo_msgs/srv/__init__.py'...\n"}
+[6.366444] (limo_msgs) StdoutLine: {'line': b"Compiling '/home/artil/ROS/install/limo_msgs/lib/python3.12/site-packages/limo_msgs/srv/_limo_srv.py'...\n"}
+[6.370338] (limo_msgs) StdoutLine: {'line': b'-- Installing: /home/artil/ROS/install/limo_msgs/lib/python3.12/site-packages/limo_msgs/limo_msgs_s__rosidl_typesupport_fastrtps_c.so\n'}
+[6.370626] (limo_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/artil/ROS/install/limo_msgs/lib/python3.12/site-packages/limo_msgs/limo_msgs_s__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[6.370868] (limo_msgs) StdoutLine: {'line': b'-- Installing: /home/artil/ROS/install/limo_msgs/lib/python3.12/site-packages/limo_msgs/limo_msgs_s__rosidl_typesupport_introspection_c.so\n'}
+[6.371441] (limo_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/artil/ROS/install/limo_msgs/lib/python3.12/site-packages/limo_msgs/limo_msgs_s__rosidl_typesupport_introspection_c.so" to ""\n'}
+[6.371671] (limo_msgs) StdoutLine: {'line': b'-- Installing: /home/artil/ROS/install/limo_msgs/lib/python3.12/site-packages/limo_msgs/limo_msgs_s__rosidl_typesupport_c.so\n'}
+[6.371849] (limo_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/artil/ROS/install/limo_msgs/lib/python3.12/site-packages/limo_msgs/limo_msgs_s__rosidl_typesupport_c.so" to ""\n'}
+[6.372017] (limo_msgs) StdoutLine: {'line': b'-- Installing: /home/artil/ROS/install/limo_msgs/lib/liblimo_msgs__rosidl_generator_py.so\n'}
+[6.372161] (limo_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/artil/ROS/install/limo_msgs/lib/liblimo_msgs__rosidl_generator_py.so" to ""\n'}
+[6.372251] (limo_msgs) StdoutLine: {'line': b'-- Installing: /home/artil/ROS/install/limo_msgs/share/limo_msgs/msg/LimoStatus.idl\n'}
+[6.372398] (limo_msgs) StdoutLine: {'line': b'-- Installing: /home/artil/ROS/install/limo_msgs/share/limo_msgs/srv/LimoSrv.idl\n'}
+[6.372497] (limo_msgs) StdoutLine: {'line': b'-- Installing: /home/artil/ROS/install/limo_msgs/share/limo_msgs/action/LimoAction.idl\n'}
+[6.372643] (limo_msgs) StdoutLine: {'line': b'-- Installing: /home/artil/ROS/install/limo_msgs/share/limo_msgs/msg/LimoStatus.msg\n'}
+[6.372721] (limo_msgs) StdoutLine: {'line': b'-- Installing: /home/artil/ROS/install/limo_msgs/share/limo_msgs/srv/LimoSrv.srv\n'}
+[6.372870] (limo_msgs) StdoutLine: {'line': b'-- Installing: /home/artil/ROS/install/limo_msgs/share/limo_msgs/action/LimoAction.action\n'}
+[6.372991] (limo_msgs) StdoutLine: {'line': b'-- Installing: /home/artil/ROS/install/limo_msgs/share/ament_index/resource_index/package_run_dependencies/limo_msgs\n'}
+[6.373093] (limo_msgs) StdoutLine: {'line': b'-- Installing: /home/artil/ROS/install/limo_msgs/share/ament_index/resource_index/parent_prefix_path/limo_msgs\n'}
+[6.373199] (limo_msgs) StdoutLine: {'line': b'-- Installing: /home/artil/ROS/install/limo_msgs/share/limo_msgs/environment/ament_prefix_path.sh\n'}
+[6.373404] (limo_msgs) StdoutLine: {'line': b'-- Installing: /home/artil/ROS/install/limo_msgs/share/limo_msgs/environment/ament_prefix_path.dsv\n'}
+[6.373480] (limo_msgs) StdoutLine: {'line': b'-- Installing: /home/artil/ROS/install/limo_msgs/share/limo_msgs/environment/path.sh\n'}
+[6.373554] (limo_msgs) StdoutLine: {'line': b'-- Installing: /home/artil/ROS/install/limo_msgs/share/limo_msgs/environment/path.dsv\n'}
+[6.373731] (limo_msgs) StdoutLine: {'line': b'-- Installing: /home/artil/ROS/install/limo_msgs/share/limo_msgs/local_setup.bash\n'}
+[6.373814] (limo_msgs) StdoutLine: {'line': b'-- Installing: /home/artil/ROS/install/limo_msgs/share/limo_msgs/local_setup.sh\n'}
+[6.373927] (limo_msgs) StdoutLine: {'line': b'-- Installing: /home/artil/ROS/install/limo_msgs/share/limo_msgs/local_setup.zsh\n'}
+[6.373979] (limo_msgs) StdoutLine: {'line': b'-- Installing: /home/artil/ROS/install/limo_msgs/share/limo_msgs/local_setup.dsv\n'}
+[6.374027] (limo_msgs) StdoutLine: {'line': b'-- Installing: /home/artil/ROS/install/limo_msgs/share/limo_msgs/package.dsv\n'}
+[6.374112] (limo_msgs) StdoutLine: {'line': b'-- Installing: /home/artil/ROS/install/limo_msgs/share/ament_index/resource_index/packages/limo_msgs\n'}
+[6.374267] (limo_msgs) StdoutLine: {'line': b'-- Installing: /home/artil/ROS/install/limo_msgs/share/limo_msgs/cmake/export_limo_msgs__rosidl_generator_cExport.cmake\n'}
+[6.374334] (limo_msgs) StdoutLine: {'line': b'-- Installing: /home/artil/ROS/install/limo_msgs/share/limo_msgs/cmake/export_limo_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[6.374376] (limo_msgs) StdoutLine: {'line': b'-- Installing: /home/artil/ROS/install/limo_msgs/share/limo_msgs/cmake/export_limo_msgs__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[6.374614] (limo_msgs) StdoutLine: {'line': b'-- Installing: /home/artil/ROS/install/limo_msgs/share/limo_msgs/cmake/export_limo_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[6.374697] (limo_msgs) StdoutLine: {'line': b'-- Installing: /home/artil/ROS/install/limo_msgs/share/limo_msgs/cmake/export_limo_msgs__rosidl_generator_cppExport.cmake\n'}
+[6.374871] (limo_msgs) StdoutLine: {'line': b'-- Installing: /home/artil/ROS/install/limo_msgs/share/limo_msgs/cmake/export_limo_msgs__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[6.374936] (limo_msgs) StdoutLine: {'line': b'-- Installing: /home/artil/ROS/install/limo_msgs/share/limo_msgs/cmake/export_limo_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[6.374978] (limo_msgs) StdoutLine: {'line': b'-- Installing: /home/artil/ROS/install/limo_msgs/share/limo_msgs/cmake/limo_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[6.375030] (limo_msgs) StdoutLine: {'line': b'-- Installing: /home/artil/ROS/install/limo_msgs/share/limo_msgs/cmake/limo_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[6.375317] (limo_msgs) StdoutLine: {'line': b'-- Installing: /home/artil/ROS/install/limo_msgs/share/limo_msgs/cmake/limo_msgs__rosidl_typesupport_cExport.cmake\n'}
+[6.375529] (limo_msgs) StdoutLine: {'line': b'-- Installing: /home/artil/ROS/install/limo_msgs/share/limo_msgs/cmake/limo_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[6.375686] (limo_msgs) StdoutLine: {'line': b'-- Installing: /home/artil/ROS/install/limo_msgs/share/limo_msgs/cmake/limo_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[6.375961] (limo_msgs) StdoutLine: {'line': b'-- Installing: /home/artil/ROS/install/limo_msgs/share/limo_msgs/cmake/limo_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[6.376246] (limo_msgs) StdoutLine: {'line': b'-- Installing: /home/artil/ROS/install/limo_msgs/share/limo_msgs/cmake/limo_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[6.376367] (limo_msgs) StdoutLine: {'line': b'-- Installing: /home/artil/ROS/install/limo_msgs/share/limo_msgs/cmake/limo_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[6.376476] (limo_msgs) StdoutLine: {'line': b'-- Installing: /home/artil/ROS/install/limo_msgs/share/limo_msgs/cmake/export_limo_msgs__rosidl_generator_pyExport.cmake\n'}
+[6.376573] (limo_msgs) StdoutLine: {'line': b'-- Installing: /home/artil/ROS/install/limo_msgs/share/limo_msgs/cmake/export_limo_msgs__rosidl_generator_pyExport-noconfig.cmake\n'}
+[6.376672] (limo_msgs) StdoutLine: {'line': b'-- Installing: /home/artil/ROS/install/limo_msgs/share/limo_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[6.376719] (limo_msgs) StdoutLine: {'line': b'-- Installing: /home/artil/ROS/install/limo_msgs/share/limo_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[6.376760] (limo_msgs) StdoutLine: {'line': b'-- Installing: /home/artil/ROS/install/limo_msgs/share/limo_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[6.376801] (limo_msgs) StdoutLine: {'line': b'-- Installing: /home/artil/ROS/install/limo_msgs/share/limo_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[6.376841] (limo_msgs) StdoutLine: {'line': b'-- Installing: /home/artil/ROS/install/limo_msgs/share/limo_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[6.376881] (limo_msgs) StdoutLine: {'line': b'-- Installing: /home/artil/ROS/install/limo_msgs/share/limo_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[6.376922] (limo_msgs) StdoutLine: {'line': b'-- Installing: /home/artil/ROS/install/limo_msgs/share/limo_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[6.376963] (limo_msgs) StdoutLine: {'line': b'-- Installing: /home/artil/ROS/install/limo_msgs/share/limo_msgs/cmake/limo_msgsConfig.cmake\n'}
+[6.377002] (limo_msgs) StdoutLine: {'line': b'-- Installing: /home/artil/ROS/install/limo_msgs/share/limo_msgs/cmake/limo_msgsConfig-version.cmake\n'}
+[6.377052] (limo_msgs) StdoutLine: {'line': b'-- Installing: /home/artil/ROS/install/limo_msgs/share/limo_msgs/package.xml\n'}
+[6.378897] (limo_msgs) CommandEnded: {'returncode': 0}
+[6.395915] (limo_msgs) JobEnded: {'identifier': 'limo_msgs', 'rc': 0}
+[6.396872] (-) EventReactorShutdown: {}

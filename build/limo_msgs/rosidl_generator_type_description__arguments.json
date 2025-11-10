@@ -1,0 +1,16 @@
+{
+  "package_name": "limo_msgs",
+  "output_dir": "/home/artil/ROS/build/limo_msgs/rosidl_generator_type_description/limo_msgs",
+  "idl_tuples": [
+    "/home/artil/ROS/build/limo_msgs/rosidl_adapter/limo_msgs:msg/LimoStatus.idl",
+    "/home/artil/ROS/build/limo_msgs/rosidl_adapter/limo_msgs:srv/LimoSrv.idl",
+    "/home/artil/ROS/build/limo_msgs/rosidl_adapter/limo_msgs:action/LimoAction.idl"
+  ],
+  "include_paths": [
+    "builtin_interfaces:/opt/ros/jazzy/share/builtin_interfaces",
+    "std_msgs:/opt/ros/jazzy/share/std_msgs",
+    "service_msgs:/opt/ros/jazzy/share/service_msgs",
+    "action_msgs:/opt/ros/jazzy/share/action_msgs",
+    "unique_identifier_msgs:/opt/ros/jazzy/share/unique_identifier_msgs"
+  ]
+}

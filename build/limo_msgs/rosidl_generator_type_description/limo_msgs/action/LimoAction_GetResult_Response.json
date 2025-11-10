@@ -1,0 +1,56 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "limo_msgs/action/LimoAction_GetResult_Response",
+      "fields": [
+        {
+          "name": "status",
+          "type": {
+            "type_id": 2,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "result",
+          "type": {
+            "type_id": 1,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": "limo_msgs/action/LimoAction_Result"
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": [
+      {
+        "type_name": "limo_msgs/action/LimoAction_Result",
+        "fields": [
+          {
+            "name": "success",
+            "type": {
+              "type_id": 15,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          }
+        ]
+      }
+    ]
+  },
+  "type_hashes": [
+    {
+      "type_name": "limo_msgs/action/LimoAction_GetResult_Response",
+      "hash_string": "RIHS01_47c39471eb8e5927152857161f66d75f4a8515e60e1acea3667a8e89d7d56836"
+    },
+    {
+      "type_name": "limo_msgs/action/LimoAction_Result",
+      "hash_string": "RIHS01_fa6044e15b2d772833ce6ad3b140e95e74ee529eace04e5fac10d152fc6ea124"
+    }
+  ]
+}
